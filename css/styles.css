@@ -1,0 +1,91 @@
+.title-row {
+  padding-top: 40%;
+  padding-bottom: 40%;
+  text-align: center;
+}
+.title {
+  font-size: 100px;
+}
+.slow {
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+}
+.short-delay {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 3s;
+}
+.long-delay {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 4s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+}
+body {
+  font-family: "PT Serif", "Helvetica Neue", sans-serif;
+  color: #2d585e
+}
+.block {
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  text-align: center;
+  width: 100px;
+  overflow: hidden;
+  padding: 5px;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.block:hover {
+  opacity: 0.6;
+}
+.block img {
+  margin-bottom: -15px;
+}
+/* the pastel staples */
+.block-green {
+  background-color: rgba(3, 192, 60, 0.6);
+}
+.block-blue {
+  background-color: rgba(174, 198, 207, 0.6);
+}
+.block-yellow {
+  background-color: rgba(253, 253, 150, 0.6);
+}
+.block-red {
+  background-color: rgba(255, 105, 97, 0.6);
+}
+
+.welcome-row {
+  margin-top: 30%;
+}
+.welcome {
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+}
+.col-md-4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100px;
+}
+strong {
+  color: #81c262;
+}
+footer {
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 3px dotted #81c262;
+}
